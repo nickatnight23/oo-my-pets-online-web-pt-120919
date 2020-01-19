@@ -1,3 +1,8 @@
-class Owner
-  # code goes here
-end
+class Owner 
+  attr_accessor :name
+  
+  def initialize (name)
+    @name =name
+ end
+
+
